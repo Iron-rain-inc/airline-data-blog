@@ -1,87 +1,34 @@
 # Airline Data Blog
 
-This project display data science skills by answering a number of questions. 
+This notebook explores US airline data from 2008, the focus is on airline delays and airline performance. 
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+To get started with this project you can clone or download the repository and launch the downloaded Jupyter Notebook.
+The additional files required for the project can be downloaded at:
+- https://raw.githubusercontent.com/jpatokal/openflights/master/data/airports.dat
+	- A list of airports, including IATA codes and coordinates.
+- https://www.kaggle.com/giovamata/airlinedelaycauses#DelayedFlights.csv
+	- A dataset of flights in the US during 2008, includes delays, origins, destination and more.
+
+### Project Motivation
+
+The goal of this project is to determine the best and worst times to fly in the US, there are five questions that will be answered:
+- Which day of the week is the worst day for flight arrival delays?
+- Is there a period throughout the year where arrival delays are higher than average?
+- Which flight routes have the most arrival delay?
+- Which airline is the most reliable?
+- What is the leading cause for arrival delays in airlines?
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+To run this notebook Jupyter Notebooks is required, additional downloads are included in the Getting Started portion of this file.
 
-```
-Give examples
-```
+### How To Interact
+Open the Notebook file in a compatible Jupyter Notebook environment and run the cells. 
 
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+### Licensing 
+The following licenses are applicable to this project and datasets:
+Jupyter Notebook: Creative Commons
+Kaggle Airline Dataset: Creative Commons
+Airline Location Dataset: GNU Affero General public License
